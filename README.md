@@ -7,7 +7,7 @@ The codes and the related datasets will be made publicly available after the pap
 
 ## Install
 The dependency packages of the current repository are as follows:
-
+'''
 package              | version
 ----------------------------------------
 matplotlib           | 3.7.2
@@ -21,7 +21,7 @@ scikit-learn         | 1.3.0
 sktime               | 0.29.1
 statsmodels          | 0.14.0
 torch                | 2.4.1
-
+'''
 It is not necessary to strictly adhere to the versions of the aforementioned packages; creating an environment where they can operate jointly is sufficient.
 
 ## Project context
