@@ -3,7 +3,7 @@ It is the code for the paper "Multivariable Temporal-Frequency Reconstruction mo
 
 It is a hybrid forecasting model working for multivariable time series forecasting. It integrates the multivariable data decomposition and feature selection based on explainable artificial intelligence (XAI). It can handle multivariable forecasting tasks (multivariate-to-univariate tasks), and is particularly suitable for volatile time series.
 
-The codes and the related datasets will be made publicly available after the paper is accepted.
+
 
 ## Install
 The dependency packages of the current repository are as follows:
@@ -22,7 +22,7 @@ sktime               | 0.29.1
 statsmodels          | 0.14.0
 torch                | 2.4.1
 ```
-It is not necessary to strictly adhere to the versions of the aforementioned packages; creating an environment where they can operate jointly is sufficient.
+It is not necessary to strictly adhere to the versions of the aforementioned packages. Creating an environment where they can operate jointly is sufficient.
 
 ## Project context
 ```
@@ -47,3 +47,6 @@ MTFR/
 ├── main_Exp.py
 └── tools.py
 ```
+
+## Run
+The file `main_Exp.py` serves as the main program. Adjusting the parameters in the `settings` section according to the task scenario is sufficient. Further modifications to the default parameters can be made in the file `Configs.py`.
