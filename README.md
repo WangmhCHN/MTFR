@@ -25,6 +25,7 @@ torch                | 2.4.1
 It is not necessary to strictly adhere to the versions of the aforementioned packages; creating an environment where they can operate jointly is sufficient.
 
 ## Project context
+```
 MTFR/
 ├── Decomposition
 │   ├── SSTL_MWT.py
@@ -45,3 +46,4 @@ MTFR/
 ├── Models.py
 ├── main_Exp.py
 └── tools.py
+```
