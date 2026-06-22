@@ -1,5 +1,5 @@
 # MTFR
-It is the code for the paper "Multivariable Temporal-Frequency Reconstruction model with two-stage decomposition and explainable AI-driven feature selection for volatile time series forecasting". 
+It is the code for the paper "Multivariable Temporal-Frequency Reconstruction model with two-stage decomposition and explainable AI-driven feature selection for highly volatile time-series forecasting". 
 
 It is a hybrid forecasting model working for multivariable time series forecasting. It integrates the multivariable data decomposition and feature selection based on explainable artificial intelligence (XAI). It can handle multivariable forecasting tasks (multivariate-to-univariate tasks), and is particularly suitable for volatile time series.
 
@@ -27,6 +27,12 @@ It is not necessary to strictly adhere to the versions of the aforementioned pac
 ## Project context
 ```
 MTFR/
+├── main_Exp.py
+├── Configs.py
+├── MTFR_Pytorch.py
+├── ModelUtils.py
+├── Models.py
+├── tools.py
 ├── Decomposition
 │   ├── SSTL_MWT.py
 │   └── SSTL_UFFT.py
@@ -40,13 +46,15 @@ MTFR/
 │   ├── FDSL.csv
 │   ├── GWL.csv
 │   └── SILO_Cairns.csv
-├── Configs.py
-├── MTFR_Pytorch.py
-├── ModelUtils.py
-├── Models.py
-├── main_Exp.py
-└── tools.py
 ```
 
 ## Run
 The file `main_Exp.py` serves as the main program. Adjusting the parameters in the `settings` section according to the task scenario is sufficient. Further modifications to the default parameters can be made in the file `Configs.py`.
+
+## Acknowledgement
+We appreciate the following GitHub repos a lot for their valuable code base or datasets:
+[STL-ALN_BSA-LSTM](https://github.com/zjuml/STL-ALNBSA-LSTM)
+[CEEMDAN_LSTM](https://github.com/FateMurphy/CEEMDAN_LSTM)
+[Time-Series-Library](https://github.com/thuml/Time-Series-Library)
+
+
