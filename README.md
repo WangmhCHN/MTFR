@@ -26,7 +26,7 @@ It is not necessary to strictly adhere to the versions of the aforementioned pac
 
 ## Project context
 ```
-MTFR/
+MTFR-code/
 ├── main_Exp.py
 ├── Configs.py
 ├── MTFR_Pytorch.py
