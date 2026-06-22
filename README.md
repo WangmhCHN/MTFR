@@ -53,8 +53,11 @@ The file `main_Exp.py` serves as the main program. Adjusting the parameters in t
 
 ## Acknowledgement
 We appreciate the following GitHub repos a lot for their valuable code base or datasets:
+
 [STL-ALN_BSA-LSTM](https://github.com/zjuml/STL-ALNBSA-LSTM)
+
 [CEEMDAN_LSTM](https://github.com/FateMurphy/CEEMDAN_LSTM)
+
 [Time-Series-Library](https://github.com/thuml/Time-Series-Library)
 
 
